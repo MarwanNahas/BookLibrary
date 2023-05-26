@@ -1,0 +1,11 @@
+1)To start : npm start 
+2)The installations : 1)npm install 2)npx create-react-app fwd-react 3)npm i -D react-router-dom@latest
+3)Project Brief : Its a Library that contain shelves and in each shelf are the books belong to and there is search that makes u add other books to the library
+4)Description : -everything is aligned with the rubric
+	          - I used the repository given to us 
+	        - I added Search.js that contain the page in which we can search the books in
+	        - The books are set in variable called data in the useEffect in App.js from the api given
+	        -Used 3 Shelfs CurrentShelf/WantToReadShelf/ReadShelf each display the books that are in this shelf
+	      -Used function called handleselect which takes 2 parameters the clicked value and the id of the book clicked this function handles changing the shelf of a specific book & at the end of it we call the function update from the api
+	     -Then in Search.js i used 2 functions handleselect2 same as The one in App.js and handleSearch2 which takes the input from the search bar and displays the searched books	
+	     -i used state in the Link to provide the data from the app.js to the search.js
